@@ -1,0 +1,50 @@
+{
+  "valid_login": {
+    "username": "emilys",
+    "password": "emilyspass"
+  },
+
+  "invalid_login": {
+    "username": "wrongUser",
+    "password": "wrongPass"
+  },
+
+  "new_user": {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "age": 28
+  },
+
+  "update_user": {
+    "firstName": "EmilyUpdated",
+    "age": 29
+  },
+
+  "new_product": {
+    "title": "New Phone",
+    "price": 199
+  },
+
+  "update_product": {
+    "title": "Updated Phone",
+    "price": 249
+  },
+
+  "new_cart": {
+    "userId": 1,
+    "products": [
+      { "id": 1, "quantity": 2 },
+      { "id": 5, "quantity": 1 }
+    ]
+  },
+
+  "update_cart": {
+    "products": [
+      { "id": 1, "quantity": 3 },
+      { "id": 5, "quantity": 2 }
+    ]
+  }
+}
+
+
+
