@@ -10,3 +10,5 @@ class UsersApi(BaseApi):
 
     def delete_user(self, user_id):
         return self.request("DELETE", f"/users/{user_id}")
+    def search_user(self, query):
+        return self.request("GET", f"/users/search?q={query}")
